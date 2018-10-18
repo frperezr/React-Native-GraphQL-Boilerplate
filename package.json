@@ -1,0 +1,57 @@
+{
+  "name": "ReactNative_GraphQL_boilerplate",
+  "version": "1.0.0",
+  "author": "Francisco Javier Perez Rodriguez",
+  "description": "ReactNative/GraphQL Boilerplate",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.2.4",
+    "apollo-client": "^2.3.4",
+    "apollo-link": "^1.2.2",
+    "apollo-link-context": "^1.0.8",
+    "apollo-link-http": "^1.5.4",
+    "apollo-link-ws": "^1.0.8",
+    "apollo-utilities": "^1.0.15",
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "encodeurl": "^1.0.2",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.2",
+    "qs": "^6.5.2",
+    "react": "^16.4.2",
+    "react-apollo": "^2.1.5",
+    "react-native": "^0.56.0",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.11.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "subscriptions-transport-ws": "^0.9.14"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "23.0.1",
+    "babel-plugin-inline-import": "^3.0.0",
+    "babel-preset-react-native": "5.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-ava": "^4.5.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-no-unused-vars-rest": "^1.0.6",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "23.1.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
